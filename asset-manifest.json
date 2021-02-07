@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.2ae47eeb.chunk.css",
-    "main.js": "/static/js/main.7231a796.chunk.js",
-    "main.js.map": "/static/js/main.7231a796.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.fb111b27.js",
-    "runtime-main.js.map": "/static/js/runtime-main.fb111b27.js.map",
-    "static/js/2.b275702e.chunk.js": "/static/js/2.b275702e.chunk.js",
-    "static/js/2.b275702e.chunk.js.map": "/static/js/2.b275702e.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.2ae47eeb.chunk.css.map": "/static/css/main.2ae47eeb.chunk.css.map",
-    "static/js/2.b275702e.chunk.js.LICENSE.txt": "/static/js/2.b275702e.chunk.js.LICENSE.txt"
+    "main.css": "/atlaskit-user-profile/static/css/main.2ae47eeb.chunk.css",
+    "main.js": "/atlaskit-user-profile/static/js/main.7231a796.chunk.js",
+    "main.js.map": "/atlaskit-user-profile/static/js/main.7231a796.chunk.js.map",
+    "runtime-main.js": "/atlaskit-user-profile/static/js/runtime-main.1df12a3f.js",
+    "runtime-main.js.map": "/atlaskit-user-profile/static/js/runtime-main.1df12a3f.js.map",
+    "static/js/2.61464f6c.chunk.js": "/atlaskit-user-profile/static/js/2.61464f6c.chunk.js",
+    "static/js/2.61464f6c.chunk.js.map": "/atlaskit-user-profile/static/js/2.61464f6c.chunk.js.map",
+    "index.html": "/atlaskit-user-profile/index.html",
+    "static/css/main.2ae47eeb.chunk.css.map": "/atlaskit-user-profile/static/css/main.2ae47eeb.chunk.css.map",
+    "static/js/2.61464f6c.chunk.js.LICENSE.txt": "/atlaskit-user-profile/static/js/2.61464f6c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fb111b27.js",
-    "static/js/2.b275702e.chunk.js",
+    "static/js/runtime-main.1df12a3f.js",
+    "static/js/2.61464f6c.chunk.js",
     "static/css/main.2ae47eeb.chunk.css",
     "static/js/main.7231a796.chunk.js"
   ]
