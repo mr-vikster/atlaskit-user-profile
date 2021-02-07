@@ -17,8 +17,8 @@ const Header = () => {
       <AtlassianNavigation
         label="site"
         primaryItems={[
-          <PrimaryButton onClick={() => history.push('/user-profile')}>User Profile</PrimaryButton>,
-          <PrimaryButton onClick={() => history.push('/user-profile/edit')}>Edit User Profile</PrimaryButton>,
+          <PrimaryButton onClick={() => history.push('/atlaskit-user-profile/user-profile')}>User Profile</PrimaryButton>,
+          <PrimaryButton onClick={() => history.push('/atlaskit-user-profile/user-profile/edit')}>Edit User Profile</PrimaryButton>,
         ]}
         renderProductHome={ProductHomeExample}
       />

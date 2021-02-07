@@ -98,7 +98,7 @@ const UserProfile = () => {
           <p>{!!localStorage.getItem('newsletter_atlaskit_test') ? 'Yes' : 'No'}</p>
         </ProfileDataElement>
       </ProfileDataRow>
-      <EditLink to="/user-profile/edit">
+      <EditLink to="/atlaskit-user-profile/user-profile/edit">
         <Button appearance="primary">Edit</Button>
       </EditLink>
     </UserProfileWrapper>
