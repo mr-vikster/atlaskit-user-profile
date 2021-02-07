@@ -11,9 +11,9 @@ const Root = () => {
     <Fragment>
       <Header />
       <Switch>
-        <Route exact path="/" component={UserProfileForm}/>
-        <Route exact path="/user-profile" component={UserProfile}/>
-        <Route exact path="/user-profile/edit" component={UserProfileForm}/>
+        <Route exact path="/atlaskit-user-profile" component={UserProfileForm}/>
+        <Route exact path="/atlaskit-user-profile/user-profile" component={UserProfile}/>
+        <Route exact path="/atlaskit-user-profile/user-profile/edit" component={UserProfileForm}/>
       </Switch>
       <Footer />
     </Fragment>
