@@ -5,7 +5,7 @@ import { AtlassianIcon, AtlassianLogo } from '@atlaskit/logo';
 
 const ProductHomeExample = () => {
   const history = useHistory();
-  return <ProductHome icon={AtlassianIcon} logo={AtlassianLogo} onClick={() => history.push('/')}/>
+  return <ProductHome icon={AtlassianIcon} logo={AtlassianLogo} onClick={() => history.push('/atlaskit-user-profile')}/>
 };
 
 const Header = () => {
