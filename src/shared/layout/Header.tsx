@@ -3,9 +3,10 @@ import { useHistory } from 'react-router-dom';
 import { AtlassianNavigation, ProductHome, PrimaryButton } from '@atlaskit/atlassian-navigation';
 import { AtlassianIcon, AtlassianLogo } from '@atlaskit/logo';
 
-const ProductHomeExample = () => (
-  <ProductHome icon={AtlassianIcon} logo={AtlassianLogo}/>
-);
+const ProductHomeExample = () => {
+  const history = useHistory();
+  return <ProductHome icon={AtlassianIcon} logo={AtlassianLogo} onClick={() => history.push('/')}/>
+};
 
 const Header = () => {
 
@@ -16,7 +17,8 @@ const Header = () => {
       <AtlassianNavigation
         label="site"
         primaryItems={[
-          <PrimaryButton onClick={() => history.push('/')}>User Profile</PrimaryButton>,
+          <PrimaryButton onClick={() => history.push('/user-profile')}>User Profile</PrimaryButton>,
+          <PrimaryButton onClick={() => history.push('/user-profile/edit')}>Edit User Profile</PrimaryButton>,
         ]}
         renderProductHome={ProductHomeExample}
       />

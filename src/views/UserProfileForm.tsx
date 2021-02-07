@@ -73,7 +73,7 @@ const UserProfileForm = () => {
       Object.entries(data).filter((field: any) => field[0] !== 'avatar').map((field: any) => {
         return localStorage.setItem(`${field[0]}_atlaskit_test`, field[1]);
       });
-      return history.push('/')
+      return history.push('/user-profile')
     });
   };
 
@@ -200,7 +200,7 @@ const UserProfileForm = () => {
             </FormFieldRow>
             <FormFooter>
               <ButtonGroup>
-                <Button appearance="subtle" onClick={() => history.push('/')}>Cancel</Button>
+                <Button appearance="subtle" onClick={() => history.push('/user-profile')}>Cancel</Button>
                 <LoadingButton
                   type="submit"
                   appearance="primary"
