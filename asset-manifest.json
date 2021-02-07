@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/atlaskit-user-profile/static/css/main.2ae47eeb.chunk.css",
-    "main.js": "/atlaskit-user-profile/static/js/main.2cddecf8.chunk.js",
-    "main.js.map": "/atlaskit-user-profile/static/js/main.2cddecf8.chunk.js.map",
+    "main.js": "/atlaskit-user-profile/static/js/main.6ba16697.chunk.js",
+    "main.js.map": "/atlaskit-user-profile/static/js/main.6ba16697.chunk.js.map",
     "runtime-main.js": "/atlaskit-user-profile/static/js/runtime-main.1df12a3f.js",
     "runtime-main.js.map": "/atlaskit-user-profile/static/js/runtime-main.1df12a3f.js.map",
     "static/js/2.61464f6c.chunk.js": "/atlaskit-user-profile/static/js/2.61464f6c.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.1df12a3f.js",
     "static/js/2.61464f6c.chunk.js",
     "static/css/main.2ae47eeb.chunk.css",
-    "static/js/main.2cddecf8.chunk.js"
+    "static/js/main.6ba16697.chunk.js"
   ]
 }
