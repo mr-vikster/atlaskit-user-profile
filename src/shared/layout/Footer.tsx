@@ -3,15 +3,17 @@ import styled from 'styled-components';
 
 const PageFooter = styled.footer`
   box-sizing: border-box;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 8px 16px;
   box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+  & p {
+    @media (max-width: 600px) {
+      font-size: 14px;
+    }
+  }
   & a {
     font-size: 18px;
     text-decoration: none;
@@ -27,6 +29,9 @@ const PageFooter = styled.footer`
     &:hover:after {
       width: 100%;
     }
+  }
+  @media (max-width: 600px) {
+    padding: 8px;
   }
 `;
 
