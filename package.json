@@ -2,7 +2,7 @@
   "name": "atlaskit-user-profile",
   "version": "0.1.0",
   "private": true,
-  "homeage": "https://mr-vikster.github.io/atlaskit-user-profile",
+  "homepage": "https://mr-vikster.github.io/atlaskit-user-profile",
   "dependencies": {
     "@atlaskit/atlassian-navigation": "^0.12.5",
     "@atlaskit/avatar": "^20.1.0",
