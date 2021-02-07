@@ -1,6 +1,6 @@
-import React from 'react'
-import { AtlassianNavigation, ProductHome, PrimaryButton } from '@atlaskit/atlassian-navigation'
-import { AtlassianIcon, AtlassianLogo } from '@atlaskit/logo'
+import React from 'react';
+import { AtlassianNavigation, ProductHome, PrimaryButton } from '@atlaskit/atlassian-navigation';
+import { AtlassianIcon, AtlassianLogo } from '@atlaskit/logo';
 
 const ProductHomeExample = () => (
   <ProductHome icon={AtlassianIcon} logo={AtlassianLogo} siteTitle="User Profile" />
